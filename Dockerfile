@@ -5,6 +5,8 @@ COPY ./entrypoint.sh /usr/local/bin/entrypoint
 RUN apk --no-cache add \
     # Install NodeJS:
     nodejs \
+    # Install jre:
+    openjdk7-jre \
     # Install ffmpeg for video recording:
     ffmpeg \
   \
