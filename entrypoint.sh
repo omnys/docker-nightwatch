@@ -1,2 +1,5 @@
 #!/bin/sh
-nightwatch "$@"
+#nightwatch "$@"
+
+# Hand off to the CMD
+exec "$@"
