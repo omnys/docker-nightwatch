@@ -1,7 +1,6 @@
 FROM alpine:3.7
 
 COPY ./entrypoint.sh /usr/local/bin/entrypoint
-COPY ./package.json ./
 
 RUN apk --no-cache add \
     # Install NodeJS:
